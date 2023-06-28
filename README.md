@@ -52,7 +52,7 @@ Once the dataset is imported, Power BI will open the Power Query Editor, which i
 To open the Power Query Editor, follow these steps:
 
 1. In Power BI Desktop, go to the Home tab.
-2. Click on "Edit Queries" in the External Data group.
+2. Click on "Edit Queries" in the External Data group/ or click on transform data in the home group. 
 3. The Power Query Editor will open, displaying a preview of your dataset.
 
 ![Screenshot (127)](https://github.com/Junnielexia/DATA-ANALYSIS-TRAINING/assets/95970546/cc279749-a383-4b4f-8470-dc99526878ac)
@@ -107,10 +107,9 @@ Enabling column profile distribution and quality in the View tab is essential fo
 **Removing Irrelevant Columns**
 To remove the Photo URL column in Power Query using Power BI, follow these steps:
 
-1. Open the Power Query Editor in Power BI by selecting the relevant table or query and clicking on the "Edit Queries" button.
-2. Locate the Photo URL column in the list of columns.
-3. Right-click on the Photo URL column header and select "Remove" or "Delete."
-4. Power Query will eliminate the Photo URL column from the dataset, ensuring that it no longer appears in your analysis.
+1. Locate the Photo URL column in the list of columns.
+2. Right-click on the Photo URL column header and select "Remove" or "Delete."
+3. Power Query will eliminate the Photo URL column from the dataset, ensuring that it no longer appears in your analysis.
 
 By removing irrelevant columns like the Photo URL, you can streamline your data cleaning process and focus on the essential attributes that drive meaningful insights and analysis.
 
@@ -132,15 +131,13 @@ Treating the ID column as text aligns with its purpose, which is typically to se
 
 To convert the ID column from number to text in Power Query within Power BI, follow these steps:
 
-1. Open the Power Query Editor in Power BI by selecting the relevant table or query and clicking on the "Edit Queries" button.
+1. Locate the ID column that you want to convert.
 
-2. Locate the ID column that you want to convert.
+2.Right-click on the ID column header and select "Change Type."
 
-3. Right-click on the ID column header and select "Change Type."
+3.Choose "Text" as the data type for the ID column.
 
-4. Choose "Text" as the data type for the ID column.
-
-5. Power Query will automatically convert the ID column from number to text format.
+4.Power Query will automatically convert the ID column from number to text format.
 
 ![Screenshot (130)](https://github.com/Junnielexia/DATA-ANALYSIS-TRAINING/assets/95970546/259cee0a-d689-4950-8d43-2f0a77aed4c0)
 
