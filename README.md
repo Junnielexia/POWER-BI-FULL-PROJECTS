@@ -190,11 +190,13 @@ To gain more insight from the data, it is important to create a Player Status co
 
 ![Screenshot (142)](https://github.com/Junnielexia/DATA-ANALYSIS-TRAINING/assets/95970546/f734467d-e7f7-46ff-a277-e1dd0256d16a)
 
+TO Further break the data into a abetter detailed format its advisable to split the contract date column into contract begin date and contract end date.
+
 ![Screenshot (143)](https://github.com/Junnielexia/DATA-ANALYSIS-TRAINING/assets/95970546/c6cb3dc4-0cba-4d11-85fa-0504ee317523)
 
 **Replacing Error**
 
-- To solve the arising error, I replaced errors with null values.
+- To solve the arising error from the empty data cells, I replaced errors with null values.
 - I also added another custom column to calculate the duration of the contract.
 
 **Results**
