@@ -59,20 +59,31 @@ I created a new measure table to help me add all the new measures in one place. 
 ### table of all measures n formula used
 
 - Average Rating = AVERAGE(Review[review_score])
-- Average Shipping Time = AVERAGEX('Order_Delivery', DATEDIFF('Order_Delivery'[order_purchase_timestamp], 'Order_Delivery'[order_delivered_customer_date], DAY))
-- Sales by Product Category = SUM('Order_Items'[payment_value]) / COUNTROWS(DISTINCT('Products'[product_category_name]))
-- Total Customers = COUNT(Customers[customer_id])
-- Total Freight Cost = SUM('Order'[freight_value])
-- Total Orders = COUNT('Order'[order_id])
-- Total Products Sold = SUM('Order_Items'[count])
-- Total Revenue = SUM(Order_Items[payment_value])
+- Averag| Metric                    | Calculation                                                                                  |
+|---------------------------|----------------------------------------------------------------------------------------------|
+| Average Rating            | AVERAGE(Review[review_score])                                                               |
+| Average Shipping Time     | AVERAGEX('Order_Delivery', DATEDIFF('Order_Delivery'[order_purchase_timestamp], 'Order_Delivery'[order_delivered_customer_date], DAY)) |
+| Sales by Product Category | SUM('Order_Items'[payment_value]) / COUNTROWS(DISTINCT('Products'[product_category_name]))  |
+| Total Customers           | COUNT(Customers[customer_id])                                                               |
+| Total Freight Cost        | SUM('Order'[freight_value])                                                                 |
+| Total Orders              | COUNT('Order'[order_id])                                                                     |
+| Total Products Sold       | SUM('Order_Items'[count])                                                                    |
+| Total Revenue             | SUM(Order_Items[payment_value])                                                              |
+
 
 # Calculated Column
+
+A calculated column in Power BI is created by using DAX to define a new column based on calculations performed on existing columns, which enhances the dataset with additional insights and enables more flexible and dynamic analysis in reports.
+
 1. Hour of the day column from the Order purchase timestamp.
    HourOfDay = HOUR('Order_items'[Order_Purchase_timestamp])
 
 # KPI
-using the Card Visuals, I generated KPI's from the new measures created
+
+Key Performance Indicators (KPIs) i
+are metrics or measures that help track and evaluate the performance of specific aspects of a business or project, providing valuable insights for decision-making by visually representing the progress towards achieving goals and objectives. They are typically displayed as dynamic visualizations on Power BI reports and dashboards, allowing users to monitor performance in real-time and identify areas that require attention or improvement.
+
+card visual- using the Card Visuals, I generated KPI's from the new measures created
 
 ## Result 1:
 
@@ -84,48 +95,72 @@ using the Card Visuals, I generated KPI's from the new measures created
 
 # Report
 
+A report is a visual representation of data analysis and insights derived from various data sources. It typically includes interactive charts, tables, graphs, and other visualizations that communicate key findings, trends, and patterns in the data. Power BI reports enable users to explore data, gain valuable insights, and make data-driven decisions by providing a clear and intuitive representation of complex information.
+
+
 ## 1. Total Freight by State
+"Total Freight by State" refers to the cumulative cost of shipping goods for each individual state, and it is important because it provides insights into regional shipping expenses, helping businesses optimize logistics, identify cost-saving opportunities, and make informed decisions on distribution strategies.
+
    
 ![Screenshot (174)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/dc320614-a027-4c02-9a52-120f2ee36ca6)
 
 ## 2. Total Customers by City
 
+"Total Customers by City" represents the count of unique customers residing in each city, and it is important for businesses to understand their customer distribution, target specific regions for marketing efforts, and tailor strategies to meet the unique needs and preferences of customers in different cities.
+
 ![Screenshot (175)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/de5d2364-6b19-4734-874d-aea6c93f34b0)
 
 ## 3. Total Product Sold by Royalty Category
+"Total Products Sold by Royalty Category" indicates the quantity of products sold in each royalty category, and it is valuable for analyzing the popularity and demand for different product categories, guiding inventory management, and identifying revenue-generating product segments for maximizing profitability.
 
 ![Screenshot (176)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/a5c6dbf8-5840-4f37-a185-0be936e45a4f)
  
 ## 4. Average Rating by Product Category
 
+"Average Rating by Product Category" calculates the mean rating given by customers for each product category, providing insights into customer satisfaction levels across different product types and guiding businesses in understanding which categories perform well or need improvement to enhance overall customer experience.
+
 ![Screenshot (178)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/32da237b-93c7-4b1c-84cf-14d3dcca704d)
 
 ## 5. Average Rating by Order_Status
+
+"Average Rating by Order_Status" calculates the mean rating provided by customers for each order status, allowing businesses to gauge customer satisfaction levels at various stages of the order process, identify potential issues affecting customer experience, and take corrective actions to improve overall service quality and customer retention.
 
 ![Screenshot (179)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/1c44eaeb-38df-4c92-ad99-b9422c0b174b)
 
 ## 6. Sum of Payment Value by Payment Method
 
+"Sum of Payment Value by Payment Method" calculates the total payment amount received for each payment method used by customers, providing insights into the most preferred payment methods, potential trends in transaction volumes, and guiding businesses in optimizing payment processing options to enhance customer convenience and efficiency.
+
 ![Screenshot (180)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/998cf387-b1f7-4a36-9d8d-bb44efeb83f4)
 
 ## 7. Order by Hour of the Day
+
+"Order by Hour of the Day" groups and counts the number of orders placed for each hour of the day, helping businesses identify peak hours and trends in customer buying behavior, enabling better resource allocation, and optimizing operations to meet demand fluctuations efficiently.
 
 ![Screenshot (181)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/de7f71f2-5a5c-4daa-a992-3db6cd3d81e6)
 
 ## 8. Total Revenue by Customer City
 
+"Total Revenue by Customer City" sums the revenue generated from sales for each customer city, enabling businesses to analyze revenue distribution across different cities, identify high-value customer locations, and tailor marketing strategies to target specific regions for increased sales and business growth.
+
 ![Screenshot (182)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/c20165f0-d265-400e-b4f0-60c02765143d)
 
 ## 9. Total Order by Product Category
+"Total Order by Product Category" counts the number of orders placed for each product category, helping businesses understand the popularity and demand for different product types, optimize inventory management, and make data-driven decisions to meet customer preferences and increase overall sales.
 
 ![Screenshot (183)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/b0d6ec62-0288-4658-b772-0ed4cbd59ff3)
 
 ## 10.Sum of Review by State
 
+"Sum of Review by State" represents the total count of reviews received for each state, allowing businesses to assess customer feedback and satisfaction levels on a regional basis, identify areas for improvement, and make data-driven decisions to enhance the overall customer experience in different states.
+
 ![Screenshot (184)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/1f6c8d2b-702a-44a4-b191-bcbcd539e6fb)
 
 ## 11. Total Order by State
 
+"Total Order by State" calculates the count of orders placed for each state, providing insights into regional sales performance, customer demand, and enabling businesses to focus on specific states for targeted marketing efforts and effective resource allocation to maximize sales and growth opportunities.
+
+###Insight from Data
 - At 47433, SP had the highest Total Orders and was 91,117.31% higher than RR, which had the lowest Total Orders at 52.
 - ﻿SP accounted for 42.18% of Total Orders.
 - Across all 27 geolocation_state, Total Orders ranged from 52 to 47433.
@@ -141,11 +176,15 @@ using the Card Visuals, I generated KPI's from the new measures created
 ![Screenshot (186)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/f9651bbc-2d26-4d90-8c89-3ce84cc62319)
 
 ## 13. Total Revenue by Year
+"Total Revenue by Year" computes the sum of revenue generated for each year, enabling businesses to analyze annual sales performance, identify growth trends, and make strategic decisions based on historical revenue data to drive business success and achieve financial objectives.
 
 ![Screenshot (187)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/fef1abe5-49fe-4ee6-96bc-9ce9bd5261b2)
 
 ## 14. Total Revenue by Month
 
+"Total Revenue by Month" calculates the sum of revenue generated for each month, allowing businesses to analyze monthly sales performance, identify seasonal trends, and make informed decisions based on revenue fluctuations throughout the year to optimize operations and marketing strategies for increased profitability.
+
+### Insight from data
 - at 1,661.28, September had the highest Total Revenue and was 1,798.17% higher than October, which had the lowest Total Revenue at 87.52.
 - September accounted for 23.41% of Total Revenue.
 - Across all 12 Month, Total Revenue ranged from 87.52 to 1,661.28.
