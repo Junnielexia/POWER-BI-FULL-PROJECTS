@@ -123,7 +123,7 @@ using the Card Visuals, I generated KPI's from the new measures created
 - At 110197,the status delivered had the highest Total Orders and was 20,231.55% higher than canceled, which had the lowest Total Orders at 542. delivered had the highest Total Orders at 110197, followed by shipped at 1185 and canceled at 542.
 - ﻿delivered accounted for 98.46% of Total Orders.
 - ﻿delivered had 110197 Total Orders, shipped had 1185, and canceled had 542.
-﻿
+
 ![Screenshot (186)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/f9651bbc-2d26-4d90-8c89-3ce84cc62319)
 
 ## 13. Total Revenue by Year
