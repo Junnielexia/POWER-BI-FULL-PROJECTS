@@ -1,38 +1,52 @@
 # DATA STRUCTURE
 
+The Olist dataset is a comprehensive e-commerce dataset from Brazil, comprising multiple interconnected tables, capturing various aspects of the customer journey, product information, and seller performance in the marketplace.
+
 ![Screenshot (167)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/1c2bb14a-2725-48a3-b02a-b2312825e796)
 
 # Importing Dataset into Power_Bi
 
+To import a dataset into Power BI, you can use the "Get Data" option in Power BI Desktop, connect to your data source, and select the appropriate file format or data connection method to load the dataset into your Power BI project for analysis and visualization.
+
 ![Screenshot (162)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/42341aa0-1ed4-4dc6-a411-cdda20b339b6)
 
 # Renaming the Data 
+I renamed the data within Power BI by utilizing the 'Transform Data' option in Power Query Editor. I selected the columns and tables I wanted to rename, right-clicked on them, and chose 'Rename.' By doing this, I improved the dataset's field names to make them more meaningful and aligned with my data analysis objectives, enhancing the overall clarity and interpretability of the data. 
 
-![Screenshot (165)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/440bafeb-c0ff-4440-87ee-731760796670)
+![Screenshot (165)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTSvisua546/440bafeb-c0ff-4440-87ee-731760796670)
 
 # DATA CLEANING
-I ensured that there is no duplicate data,error,empty cells that might affect the accuracy of the analysis in power querry before loading it into power bi workbench.
+Data cleaning is a crucial step in the data analysis process where I ensure the dataset is accurate, consistent, and free from errors or inconsistencies. By removing duplicates, handling missing values, standardizing formats, and correcting inaccuracies, I improve the quality of the data, enabling more reliable and meaningful insights during the analysis phase.
 
 # BUILDING THE MODEL
+
+When building the model in Power BI, I focus on structuring and transforming the data to create a cohesive foundation for analysis and visualization. 
 
 ![Screenshot (163)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/0fb90d77-fc64-44d0-8e5d-fa597cc6108c)
 
 ## creating connections to all table
+
+Power BI's data modeling capabilities allow me to establish relationships between tables, enabling seamless data navigation and insights. By building the model, I can efficiently explore data patterns, identify trends, and gain valuable business insights, empowering data-driven decision-making processes for stakeholders and end-users.
 
 ![Screenshot (164)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/0e378c04-febe-4563-b696-9ada25efdc11)
 
 
 # CREATING NEW TABLE
 
+When creating a new table in Power BI, I use DAX (Data Analysis Expressions) to define calculated tables based on existing data or custom tables using data from various sources. These new tables help enrich the data model by incorporating additional insights, summarizations, or aggregations that facilitate more comprehensive analysis and reporting within Power BI.
+
 ## 1. Calendar Table
 
-I created a calendar table using Order_Purchase_Timestamp this would be used to calculate weekly, monthly, quarterly and Yearly analysis 
+Creating a calendar table is essential for time-based analysis and reporting. This table contains a sequence of dates with associated attributes like year, month, quarter, and day of the week. By using DAX functions or Power Query to generate the calendar table, I can leverage it as a date dimension to create date-related calculations, time intelligence functions, and support visualizations with time-based filtering capabilities, enabling more insightful and time-aware data analysis in the report.
+
 Formula
 Calendar = CALENDAR(DATE(2016, 9, 4), DATE(2018, 10, 17))
 
 ![Screenshot (170)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/1c90c562-9ba5-464b-a311-fba0f2645fb3)
 
 ### Connecting the new table to the model
+
+Establishing a relationship between the new calendar table and the root table used to create it enables its responsivity for a seamless connection in the model. 
 
 ![Screenshot (169)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/d33e7b35-03e0-4300-a78d-1322601b150d)
 
