@@ -110,8 +110,33 @@ using the Card Visuals, I generated KPI's from the new measures created
 
 ![Screenshot (184)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/1f6c8d2b-702a-44a4-b191-bcbcd539e6fb)
 
+## 11. Total Order by State
 
+- At 47433, SP had the highest Total Orders and was 91,117.31% higher than RR, which had the lowest Total Orders at 52.
+- ﻿SP accounted for 42.18% of Total Orders.
+- Across all 27 geolocation_state, Total Orders ranged from 52 to 47433.
 
+![Screenshot (185)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/46428740-12a6-4975-bee4-b014e3c160f0)
+
+## 12. Total Order by Order status
+
+- At 110197,the status delivered had the highest Total Orders and was 20,231.55% higher than canceled, which had the lowest Total Orders at 542. delivered had the highest Total Orders at 110197, followed by shipped at 1185 and canceled at 542.
+- ﻿delivered accounted for 98.46% of Total Orders.
+- ﻿delivered had 110197 Total Orders, shipped had 1185, and canceled had 542.
+﻿
+![Screenshot (186)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/f9651bbc-2d26-4d90-8c89-3ce84cc62319)
+
+## 13. Total Revenue by Year
+
+![Screenshot (187)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/fef1abe5-49fe-4ee6-96bc-9ce9bd5261b2)
+
+## 14. Total Revenue by Month
+
+- at 1,661.28, September had the highest Total Revenue and was 1,798.17% higher than October, which had the lowest Total Revenue at 87.52.
+- September accounted for 23.41% of Total Revenue.
+- Across all 12 Month, Total Revenue ranged from 87.52 to 1,661.28.
+
+![Screenshot (188)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/d6833b80-0005-4307-bf9b-068737245691)
 
 
 
