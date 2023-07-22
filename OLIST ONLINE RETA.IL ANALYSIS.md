@@ -138,6 +138,14 @@ using the Card Visuals, I generated KPI's from the new measures created
 
 ![Screenshot (188)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/d6833b80-0005-4307-bf9b-068737245691)
 
+# Dashboard
+## first Dashbaord
+
+![Screenshot (189)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/29cbc6f2-167e-4631-94a6-9e64329ba7b1)
+
+## Second Dashboard
+
+![Screenshot (190)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/75692f0f-9438-485a-bb48-39a93022e85d)
 
 
 
