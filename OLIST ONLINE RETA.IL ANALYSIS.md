@@ -13,7 +13,7 @@ To import a dataset into Power BI, you can use the "Get Data" option in Power BI
 # Renaming the Data 
 I renamed the data within Power BI by utilizing the 'Transform Data' option in Power Query Editor. I selected the columns and tables I wanted to rename, right-clicked on them, and chose 'Rename.' By doing this, I improved the dataset's field names to make them more meaningful and aligned with my data analysis objectives, enhancing the overall clarity and interpretability of the data. 
 
-![Screenshot (165)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTSvisua546/440bafeb-c0ff-4440-87ee-731760796670)
+![Screenshot (165)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/963e03c4-287d-4496-817a-40d79cd0a8d4)
 
 # DATA CLEANING
 Data cleaning is a crucial step in the data analysis process where I ensure the dataset is accurate, consistent, and free from errors or inconsistencies. By removing duplicates, handling missing values, standardizing formats, and correcting inaccuracies, I improve the quality of the data, enabling more reliable and meaningful insights during the analysis phase.
