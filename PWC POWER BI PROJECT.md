@@ -1,4 +1,4 @@
-![Screenshot (198)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/92d40eec-a9d7-43a4-bd04-46f5f44b2fb5)# TASK 1: What do you hope to learn from this Experience
+# TASK 1: What do you hope to learn from this Experience
 
 As a beginner data analyst, the Digital Accelerator programme's PowerBI journey offers an exciting opportunity for growth. My main focus is mastering data visualization, enabling me to transform complex data into interactive visualizations for better client understanding and informed decision-making. Additionally, I am eager to explore automation in PowerBI to enhance process efficiency, freeing up time for strategic initiatives. Integrating machine learning into PowerBI excites me as it opens doors to intuitive problem-solving. Furthermore, I plan to develop strong skills in digital storytelling to effectively communicate data insights and drive positive change. I am enthusiastic about this transformative experience and eager to contribute to the organization's digital transformation.
 
