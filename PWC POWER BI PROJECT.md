@@ -88,7 +88,39 @@ I created a New Measure Table TO ADD all the new measures I created for clarity 
 
 ![Screenshot (202)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/7a161a3e-49bd-43d6-a0c8-f66970988007)
 
-
+## Sum of answer speed in seconds by Agent
+  Visualizing the "Sum of Answer Speed in Seconds by Agent" allows the business to gain valuable insights into individual agent performance and identify areas for improvement, leading to enhanced call center operations and customer service.
   
- 
+![Screenshot (205)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/09dbf55a-83dc-43b8-abd7-b0299c77b394)
 
+## Sum of Satisfaction Rating by Agent
+
+Visualizing the "Sum of Satisfaction Rating by Agent" enables the business to assess the overall customer satisfaction for each agent, identifying top-performing agents and areas for improvement to enhance customer service and build stronger client relationships.
+
+![Screenshot (206)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/1a14f70a-85a0-4389-956b-f95d31f72314)
+
+## Total Calls by Topic and Resolved Yes/No":
+
+Visualizing the "Total Calls by Topic and Resolved Yes/No" allows the business to understand call volume distribution across different topics and evaluate the resolution rate, helping identify trending issues, measure agent performance, and enhance overall customer support efficiency.
+![Screenshot (207)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/cc762639-7020-4b34-8f60-ac380ed4aee7)
+
+## Abandonment Rate by Topic":
+
+Visualizing the "Abandonment Rate by Topic" provides crucial insights into customer behavior and pain points, enabling the business to prioritize improvements in specific topics and reduce abandonment rates, ultimately enhancing customer satisfaction and call center performance.
+
+![Screenshot (208)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/78498d41-0027-4ce9-9475-8b9a53a184a8)
+ 
+## Firt Call Resolution by Agent
+
+Visualizing "First Call Resolution by Agent" is vital for the business to evaluate individual agent performance in resolving customer issues on the initial call, helping to identify top-performing agents and areas for improvement, leading to increased customer satisfaction and operational efficiency.
+
+![Screenshot (209)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/6adb38c0-d27c-49e1-b185-fac09bd5a9ca)
+
+# Agent Performance Quadrant
+
+Visualizing the "Agent Performance Quadrant" allows the business to categorize agents based on key performance metrics, such as call resolution rate and customer satisfaction, helping to identify high-performing agents, areas for improvement, and coaching opportunities to optimize overall call center performance and customer experience.
+
+![Screenshot (210)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/607b1121-99c5-4e3b-886b-7dbc34d8ecee)
+
+# Dashboard
+![Screenshot (211)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/4665e3f2-1615-4220-af62-fb65272373cf)
