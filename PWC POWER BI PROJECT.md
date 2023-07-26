@@ -68,7 +68,15 @@ I created a New Measure Table TO ADD  all the new measures i created for clarity
 | Measure Name                 | DAX Expression                                                                                                 | Explanation                                                                                                  |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | Abandonment Rate             | `DIVIDE(CALCULATE(COUNTROWS(Sheet1), Sheet1[Answered (Y/N)] = "N"), COUNTROWS(Sheet1)) * 100`                 | Calculates the percentage of calls abandoned by dividing the count of unanswered calls by the total call count and multiplying by 100.                                  |
-| Average Handle Time          | `(AVERAGE(Sheet1[Speed of answer in seconds]) + AVERAGE(Sheet1[AvgTalkDuration])) / 2`                        | Calculates the average handle time by averaging the speed of answer and average talk duration for each call. |
+| Average Handle Time          | `AVERAGEX(
+    ADDCOLUMNS(
+        Sheet1,
+        "AHT",
+        ([Speed of answer in seconds] + [AvgTalkDuration]) / 2
+    ),
+    [AHT]
+)
+`                        | Calculates the average handle time by averaging the speed of answer and average talk duration for each call. |
 | Average Speed of Answer (ASA)| `AVERAGE('Sheet1'[Speed of answer in seconds])`                                                               | Computes the average speed of answer in seconds for all answered calls.                                    |
 | Average Talk Duration        | `AVERAGE(Sheet1[AvgTalkDuration])`                                                                            | Computes the average talk duration for all calls.                                                            |
 | First Call Resolution Rate   | `DIVIDE(CALCULATE(COUNTROWS(Sheet1), Sheet1[Resolved] = "Y"), COUNTROWS(Sheet1)) * 100`                       | Calculates the percentage of calls resolved on the first attempt.                                           |
@@ -81,6 +89,11 @@ I created a New Measure Table TO ADD  all the new measures i created for clarity
 
 ![Screenshot (200)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/f034a339-2b9d-423c-af4b-b9d454ee2393)
 
+# Data Visualisation
+
+## Key Performance Indicators (KPIs)
+
+![Screenshot (202)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/7a161a3e-49bd-43d6-a0c8-f66970988007)
 
 
   
