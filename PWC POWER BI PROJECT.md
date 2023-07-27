@@ -124,3 +124,111 @@ Visualizing the "Agent Performance Quadrant" allows the business to categorize a
 
 # Dashboard
 ![Screenshot (211)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/4665e3f2-1615-4220-af62-fb65272373cf)
+
+# Task 3 Customer Retention
+
+## Customer demographics and insights.
+
+# Here is your task
+Your colleague, the engagement partner, asks you to do the following tasks:
+- Define proper KPIs
+- Create a dashboard for the retention manager reflecting the KPIs
+- Write a short email to him (the engagement partner) explaining your findings, and include suggestions as to what needs to be changed
+
+## Sample Data Analysis - Telecommunication Customer Churn
+
+### Overview
+
+In this data analysis, we will be working with a dataset containing information about customers from a telecommunication company. Our objective is to understand customer churn and derive actionable insights to improve retention.
+
+### Dataset Description
+
+
+| Column Name       | Description                                      |
+| ----------------- | ------------------------------------------------- |
+| customerID        | Unique identifier for each customer              |
+| gender            | Gender of the customer (e.g., Male, Female)      |
+| SeniorCitizen     | Whether the customer is a senior citizen (1/0)   |
+| Partner           | Whether the customer has a partner (Yes/No)      |
+| Dependents        | Whether the customer has dependents (Yes/No)     |
+| tenure            | Number of months the customer has been with the company |
+| PhoneService      | Whether the customer has phone service (Yes/No)  |
+| MultipleLines     | Whether the customer has multiple phone lines (Yes/No/No phone service) |
+| InternetService   | Type of internet service (DSL, Fiber optic, None) |
+| OnlineSecurity    | Whether the customer has online security (Yes/No/No internet service) |
+| OnlineBackup      | Whether the customer has online backup (Yes/No/No internet service) |
+| DeviceProtection  | Whether the customer has device protection (Yes/No/No internet service) |
+| TechSupport       | Whether the customer has tech support (Yes/No/No internet service) |
+| StreamingTV       | Whether the customer has streaming TV (Yes/No/No internet service) |
+| StreamingMovies   | Whether the customer has streaming movies (Yes/No/No internet service) |
+| Contract          | Type of contract (Month-to-month, One year, Two year) |
+| PaperlessBilling  | Whether the customer has opted for paperless billing (Yes/No) |
+| PaymentMethod     | Payment method used by the customer (e.g., Electronic check, Credit card, Bank transfer) |
+| MonthlyCharges    | Monthly charges billed to the customer          |
+| TotalCharges      | Total charges billed to the customer            |
+| numAdminTickets   | Number of administrative tickets raised by the customer |
+| numTechTickets    | Number of technical tickets raised by the customer |
+| Churn             | Whether the customer churned (Yes/No)            |
+
+![Screenshot (212)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/05dc3fc0-427b-43bd-bfe8-11d4b2d9b787)
+
+### Data Cleaning and Preprocessing
+
+Before performing any analysis, we conducted data cleaning and preprocessing steps. This included handling missing values, converting categorical variables into appropriate formats, and scaling numerical features as needed.
+
+### Exploratory Data Analysis (EDA)
+
+During the EDA phase, we explored the dataset to gain valuable insights into customer churn. Here are some key findings:
+
+- The churn rate for the company is approximately XX%, indicating a significant churn issue.
+- Senior citizens have a slightly higher churn rate compared to non-senior customers.
+- Customers with no partners and dependents are more likely to churn.
+- Month-to-month contract holders have a higher churn rate than those with longer-term contracts.
+- Customers with Fiber optic internet service have a higher churn rate than DSL users.
+- Customers who have experienced technical issues (raised tech tickets) are more likely to churn.
+
+### Dashboard for Retention Manager
+
+Based on our analysis, we created an interactive dashboard using Power BI to monitor and track KPIs related to customer churn. The dashboard includes visualizations for the following KPIs:
+
+- Churn Rate: A dynamic gauge displaying the current churn rate.
+- Customer Segmentation: A bar chart categorizing customers based on tenure, contract type, and internet service.
+- Customer Retention: Line chart showing customer retention rate over time.
+- Monthly Charges Analysis: Box plot comparing monthly charges for churned vs. retained customers.
+- Payment Method Comparison: A pie chart showing the distribution of payment methods among customers.
+
+### Email to the Engagement Partner
+
+Subject: Data Analysis - Telecommunication Customer Churn Insights
+
+Dear [Engagement Partner's Name],
+
+I hope this email finds you well. As per your request, I have conducted a data analysis on the telecommunication customer dataset to understand customer churn and retention trends.
+
+The churn rate for the company is approximately XX%, which indicates a notable churn issue. We have identified several factors influencing churn, including contract type, internet service, and technical support. To address these challenges and improve customer retention, I recommend the following actions:
+
+1. **Contract Options:** Explore incentives for customers to opt for longer-term contracts, as these customers exhibit lower churn rates.
+
+2. **Internet Service Quality:** Investigate the cause of higher churn among customers with Fiber optic internet service. Consider improving service quality and providing special offers to retain these customers.
+
+3. **Tech Support Enhancement:** Enhance technical support services to reduce the number of raised tech tickets and improve customer satisfaction.
+
+4. **Promotional Offers:** Introduce personalized promotional offers for customers who have been with the company for an extended period, encouraging loyalty and reducing churn.
+
+The interactive dashboard I created using Power BI will allow the retention manager to monitor the defined KPIs and take timely actions to retain valuable customers.
+
+Please find the attached Power BI report and the dataset for your reference.
+
+If you have any questions or need further assistance, please feel free to reach out.
+
+Thank you for entrusting me with this analysis. I believe implementing these recommendations will lead to improved customer retention and business growth.
+
+Best regards,
+
+[Your Name]
+Data Analyst
+[Company Name]
+
+---
+
+Note: In the above sample, the churn rate and recommendations are placeholders (XX%) and general suggestions, respectively. In a real analysis, you would replace them with actual values and customized recommendations based on your findings.
