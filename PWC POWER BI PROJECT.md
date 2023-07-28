@@ -176,6 +176,34 @@ In this data analysis, we will be working with a dataset containing information 
 
 Before performing any analysis, we conducted data cleaning and preprocessing steps. This included handling missing values, converting categorical variables into appropriate formats, and scaling numerical features as needed.
 
+
+#### Churn column
+I replaced Yes to churned and No to stayed
+
+![Alt text](<Screenshot (213).png>)
+
+#### Partner column
+I replaced Yes to Partner and NO to No Partner
+
+![Alt text](<Screenshot (214).png>)
+
+#### Tenure Column
+I used the tenure column showing the number of months a customer has stayed to create a custom column (Duration) grouping them into number of years.
+
+##### Formula
+![Alt text](<Screenshot (215).png>)
+
+```
+= 
+if [tenure] <= 12 then "0-1 year"
+else if [tenure] <= 24 then "1-2 years"
+else if [tenure] <= 36 then "2-3 years"
+else if [tenure] <= 48 then "3-4 years"
+else "4+ years"
+```
+##### Result
+
+![Alt text](<Screenshot (216).png>)
 ### Exploratory Data Analysis (EDA)
 
 During the EDA phase, we explored the dataset to gain valuable insights into customer churn. Here are some key findings:
