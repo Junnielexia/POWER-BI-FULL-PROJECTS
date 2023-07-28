@@ -180,18 +180,20 @@ Before performing any analysis, we conducted data cleaning and preprocessing ste
 #### Churn column
 I replaced Yes to churned and No to stayed
 
-![Alt text](<Screenshot (213).png>)
+![Screenshot (213)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/567885ba-6061-4671-b741-39f8488cdd0c)
+
 
 #### Partner column
 I replaced Yes to Partner and NO to No Partner
 
-![Alt text](<Screenshot (214).png>)
+![Screenshot (214)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/b83230ab-d959-4934-8098-5fcd0b73e408)
+
 
 #### Tenure Column
 I used the tenure column showing the number of months a customer has stayed to create a custom column (Duration) grouping them into number of years.
 
 ##### Formula
-![Alt text](<Screenshot (215).png>)
+![Screenshot (214)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/91bc537d-c642-42cf-b66a-48f0b3a115bc)
 
 ```
 = 
@@ -203,8 +205,34 @@ else "4+ years"
 ```
 ##### Result
 
-![Alt text](<Screenshot (216).png>)
+![Screenshot (216)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/ec7924a1-8713-4602-812d-2e8a26edffb8)
+
 ### Exploratory Data Analysis (EDA)
+I created a NEW MEASURE table to carefully arrange all my new measures for the KPIs 
+
+![Screenshot (218)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/42c68250-e3ee-4b3d-91fb-309c179180b7)
+
+| Measure Name                    | DAX Formula                                                                                      |
+|---------------------------------|--------------------------------------------------------------------------------------------------|
+| AverageTenure                   | AVERAGE('Churn-Dataset'[tenure])                                                                 |
+| Avg Monthly Revenue Churned     | CALCULATE(AVERAGE('Churn-Dataset'[MonthlyCharges]), 'Churn-Dataset'[Churn] = "Churned")          |
+| Avg Monthly Revenue Female      | CALCULATE(AVERAGE('Churn-Dataset'[MonthlyCharges]), 'Churn-Dataset'[gender] = "Female")          |
+| Avg Monthly Revenue Male        | CALCULATE(AVERAGE('Churn-Dataset'[MonthlyCharges]), 'Churn-Dataset'[gender] = "Male")            |
+| Avg Monthly Revenue NonChurned  | CALCULATE(AVERAGE('Churn-Dataset'[MonthlyCharges]), 'Churn-Dataset'[Churn] = "Stayed")           |
+| Churn Rate                      | DIVIDE(CALCULATE(COUNTROWS(FILTER('Churn-Dataset', 'Churn-Dataset'[Churn] = "Churned"))), COUNTROWS('Churn-Dataset'), 0) |
+| Customer Count CreditCard       | COUNTROWS(FILTER('Churn-Dataset', 'Churn-Dataset'[PaymentMethod] = "Credit Card (automatic)"))   |
+| Customer Count FiberOptic       | COUNTROWS(SUMMARIZE(FILTER('Churn-Dataset', 'Churn-Dataset'[InternetService] = "Fiber Optic"), 'Churn-Dataset'[customerID])) |
+| Customer Count NoInternet       | COUNTROWS(SUMMARIZE(FILTER('Churn-Dataset', 'Churn-Dataset'[InternetService] = "No"), 'Churn-Dataset'[customerID]))         |
+| Customer Count ElectronicCheck  | COUNTROWS(FILTER('Churn-Dataset', 'Churn-Dataset'[PaymentMethod] = "Electronic check"))         |
+| Customer Count MailedCheck      | COUNTROWS(FILTER('Churn-Dataset', 'Churn-Dataset'[PaymentMethod] = "Mailed check"))             |
+| Customer Retention Rate         | DIVIDE(COUNTROWS(FILTER('Churn-Dataset', 'Churn-Dataset'[Churn] = "Stayed")), COUNTROWS('Churn-Dataset'), 0) |
+| Female Customers                | CALCULATE(COUNTROWS('Churn-Dataset'), 'Churn-Dataset'[gender] = "Female")                      |
+| Male Customers                  | CALCULATE(COUNTROWS('Churn-Dataset'), 'Churn-Dataset'[gender] = "Male")                        |
+| Total Churn                     | COUNTROWS(FILTER('Churn-Dataset', 'Churn-Dataset'[Churn] = "Yes"))                              |
+| Total Non Senior Citizen        | COUNTROWS(SUMMARIZE(FILTER('Churn-Dataset', 'Churn-Dataset'[SeniorCitizen] = 0), 'Churn-Dataset'[customerID])) |
+| Total Senior Citizen            | COUNTROWS(SUMMARIZE(FILTER('Churn-Dataset', 'Churn-Dataset'[SeniorCitizen] = 1), 'Churn-Dataset'[customerID])) |
+| Total Loss                      | CALCULATE(SUM('Churn-Dataset'[MonthlyCharges]), 'Churn-Dataset'[Churn] = "Churned")            |
+
 
 During the EDA phase, we explored the dataset to gain valuable insights into customer churn. Here are some key findings:
 
