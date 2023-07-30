@@ -267,7 +267,7 @@ The churn rate for the company is approximately XX%, which indicates a notable c
 
 2. **Internet Service Quality:** Investigate the cause of higher churn among customers with Fiber optic internet service. Consider improving service quality and providing special offers to retain these customers.
 
-3. **Tech Support Enhancement:** Enhance technical support services to reduce the number of raised tech tickets and improve customer satisfaction.
+3. **Tech Support Enh ancement:** Enhance technical support services to reduce the number of raised tech tickets and improve customer satisfaction.
 
 4. **Promotional Offers:** Introduce personalized promotional offers for customers who have been with the company for an extended period, encouraging loyalty and reducing churn.
 
