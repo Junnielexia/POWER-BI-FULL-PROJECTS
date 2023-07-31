@@ -210,7 +210,8 @@ else "4+ years"
 ![Screenshot (216)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/ec7924a1-8713-4602-812d-2e8a26edffb8)
 
 ***
-### Exploratory Data Analysis (EDA)
+### Exploratory Dat
+.a Analysis (EDA)
 I created a NEW MEASURE table to carefully arrange all my new measures for the KPIs 
 
 ![Screenshot (218)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/42c68250-e3ee-4b3d-91fb-309c179180b7)
