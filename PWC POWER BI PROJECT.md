@@ -235,9 +235,46 @@ I created a NEW MEASURE table to carefully arrange all my new measures for the K
 
 
 During the EDA phase, we explored the dataset to gain valuable insights into customer churn. Here are some key findings:
+## KPI
 
-- The churn rate for the company is approximately XX%, indicating a significant churn issue.
-- Senior citizens have a slightly higher churn rate compared to non-senior customers.
+![Screenshot (230)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/fce7331a-9941-4d88-9806-4056a9c23fd5)
+
+## Count of Customer ID by Payment Method
+
+![Screenshot (219)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/f6924169-519e-4edf-b1e8-60101a4368d7)
+
+## Count of Churn by patner and Dependents
+
+![Screenshot (220)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/9ac6066c-06e2-4f32-9ba7-01bbf1773d96)
+
+## Sum of Monthly Charges and TotalChurn by Internet Services
+
+![Screenshot (221)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/6d99f1c0-7636-4514-ab1c-4e849b7645b1)
+
+## Total Revenue by Duration
+
+![Screenshot (222)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/ce1b99b9-d2e6-45e9-a17a-c18b3280571d)
+
+## Total Loss, Total Churn, Total Revenue by Gender
+
+![Screenshot (223)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/95f9c26a-a87c-4f28-b9bf-5c10a31cf8c5)
+
+## Average Tenure by Churn
+
+![Screenshot (224)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/6a6fa6af-a235-46c6-87d6-e15ff479c127)
+
+## Non Senior Citizen and Senior Citizen by Churn 
+
+![Screenshot (226)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/0af17d78-04c1-4626-aae2-b0713e5a7431)
+
+## Sum of Monthly Charges by Contract
+
+![Screenshot (225)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/4682312b-8a89-4570-80c8-a82084a82283)
+
+## 
+## EdA
+- The churn rate for the company is approximately 27%, indicating a significant churn issue.
+- Non-Senior citizens have a slightly higher churn rate compared to Senior customers.
 - Customers with no partners and dependents are more likely to churn.
 - Month-to-month contract holders have a higher churn rate than those with longer-term contracts.
 - Customers with Fiber optic internet service have a higher churn rate than DSL users.
@@ -247,11 +284,8 @@ During the EDA phase, we explored the dataset to gain valuable insights into cus
 
 Based on our analysis, we created an interactive dashboard using Power BI to monitor and track KPIs related to customer churn. The dashboard includes visualizations for the following KPIs:
 
-- Churn Rate: A dynamic gauge displaying the current churn rate.
-- Customer Segmentation: A bar chart categorizing customers based on tenure, contract type, and internet service.
-- Customer Retention: Line chart showing customer retention rate over time.
-- Monthly Charges Analysis: Box plot comparing monthly charges for churned vs. retained customers.
-- Payment Method Comparison: A pie chart showing the distribution of payment methods among customers.
+-![Screenshot (229)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/e24cff48-ba4c-4600-9c85-1654b1a368af)
+
 
 ### Email to the Engagement Partner
 
@@ -261,13 +295,13 @@ Dear [Engagement Partner's Name],
 
 I hope this email finds you well. As per your request, I have conducted a data analysis on the telecommunication customer dataset to understand customer churn and retention trends.
 
-The churn rate for the company is approximately XX%, which indicates a notable churn issue. We have identified several factors influencing churn, including contract type, internet service, and technical support. To address these challenges and improve customer retention, I recommend the following actions:
+The churn rate for the company is approximately 27%, which indicates a notable churn issue. We have identified several factors influencing churn, including contract type, internet service, and technical support. To address these challenges and improve customer retention, I recommend the following actions:
 
 1. **Contract Options:** Explore incentives for customers to opt for longer-term contracts, as these customers exhibit lower churn rates.
 
 2. **Internet Service Quality:** Investigate the cause of higher churn among customers with Fiber optic internet service. Consider improving service quality and providing special offers to retain these customers.
 
-3. **Tech Support Enh ancement:** Enhance technical support services to reduce the number of raised tech tickets and improve customer satisfaction.
+3. **Tech Support Enhancement:** Enhance technical support services to reduce the number of raised tech tickets and improve customer satisfaction.
 
 4. **Promotional Offers:** Introduce personalized promotional offers for customers who have been with the company for an extended period, encouraging loyalty and reducing churn.
 
