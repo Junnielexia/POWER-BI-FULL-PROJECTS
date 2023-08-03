@@ -347,4 +347,96 @@ Best regards,
 (Name)
 Data Analyst
 
----
+***
+## TASK 4 -Diversity and Inclusion Analysis Project
+
+### Dataset Description:
+
+The dataset used for this analysis contains employee information, including Employee ID, Gender, Age, Nationality, Job Level, Promotion status, Performance ratings, Hiring details, Turnover status, etc. The data covers a period from FY20 to FY21. The Dataset has 500 rows and 32 columns in total.
+
+### Data Preparation:
+
+1. Load the dataset into Power BI and create a data model.
+   
+![Screenshot (231)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/47c11baa-faaa-4803-bae8-14714f9d078f)
+
+2. Clean the data by handling missing values, data type conversions, and formatting.
+
+  Using Power Querry i replaced N to No and Y to Yes, i removed column that are not impoortant for the analysis.
+
+4. Create calculated columns for relevant fields like 'Time to Fill,' 'Time in Job Level @01.07.2020,' etc., as needed for the analysis.
+
+### Measures Table:
+
+| Measure Name                   | DAX Formula                                                                                       |
+|--------------------------------|---------------------------------------------------------------------------------------------------|
+| Number of Hires                | COUNTROWS('YourTableName')                                                                        |
+| Number of Men                  | CALCULATE(COUNTROWS('YourTableName'), 'YourTableName'[Gender] = "Male")                           |
+| Number of Women                | CALCULATE(COUNTROWS('YourTableName'), 'YourTableName'[Gender] = "Female")                         |
+| Diversity Hiring Rate          | DIVIDE(COUNTROWS(FILTER('YourTableName', 'YourTableName'[Target hire balance] = "Diverse")), COUNTROWS('YourTableName')) |
+| Employees Promoted FY21       | COUNTROWS(FILTER('YourTableName', 'YourTableName'[Promotion in FY21?] = "Yes"))                    |
+| Percentage of Women Promoted   | DIVIDE(COUNTROWS(FILTER('YourTableName', 'YourTableName'[Promotion in FY21?] = "Yes" && 'YourTableName'[Gender] = "Female")), COUNTROWS(FILTER('YourTableName', 'YourTableName'[Promotion in FY21?] = "Yes"))) |
+| % of Women Hired              | DIVIDE(COUNTROWS(FILTER('YourTableName', 'YourTableName'[New hire FY20?] = "Yes" && 'YourTableName'[Gender] = "Female")), COUNTROWS(FILTER('YourTableName', 'YourTableName'[New hire FY20?] = "Yes"))) |
+| % of Men Hired                | DIVIDE(COUNTROWS(FILTER('YourTableName', 'YourTableName'[New hire FY20?] = "Yes" && 'YourTableName'[Gender] = "Male")), COUNTROWS(FILTER('YourTableName', 'YourTableName'[New hire FY20?] = "Yes"))) |
+| Average Performance Rating: Men   | CALCULATE(AVERAGE('YourTableName'[FY20 Performance Rating]), 'YourTableName'[Gender] = "Male")   |
+| Average Performance Rating: Women | CALCULATE(AVERAGE('YourTableName'[FY20 Performance Rating]), 'YourTableName'[Gender] = "Female") |
+| Employee Turnover Rate         | DIVIDE(COUNTROWS(FILTER('YourTableName', 'YourTableName'[FY20 leaver?] = "Yes")), COUNTROWS('YourTableName')) |
+| Voluntary vs. Involuntary Turnover | SUMMARIZE('YourTableName', "Voluntary", CALCULATE(COUNTROWS('YourTableName'), 'YourTableName'[FY20 leaver?] = "Yes" && 'YourTableName'[In base group for turnover FY20] = "Yes"), "Involuntary", CALCULATE(COUNTROWS('YourTableName'), 'YourTableName'[FY20 leaver?] = "Yes" && 'YourTableName'[In base group for turnover FY20] = "No")) |
+
+
+### Analysis Visualizations:
+
+#### Hiring Analysis:
+
+1. Number of Hires by Gender:
+   - Visualize the number of male and female hires using a stacked bar chart.
+
+2. Diversity Hiring Rate:
+   - Display the percentage of diverse hires with a card visualization.
+
+3. % of Women Hired:
+   - Show the percentage of female hires among total hires using a donut chart.
+
+4. % of Men Hired:
+   - Show the percentage of male hires among total hires using a donut chart.
+
+#### Promotion Analysis:
+
+5. Employees Promoted in FY21:
+   - Display the count of employees promoted in FY21 using a card visualization.
+
+6. Percentage of Women Promoted:
+   - Show the percentage of women among promoted employees using a donut chart.
+
+#### Performance Analysis:
+
+7. Performance Rating Distribution:
+   - Visualize the distribution of performance ratings with a histogram.
+
+8. Average Performance Rating by Gender:
+   - Compare the average performance rating of men and women using a clustered bar chart.
+
+#### Turnover Analysis:
+
+9. Employee Turnover Rate:
+   - Display the overall employee turnover rate using a card visualization.
+
+10. Voluntary vs. Involuntary Turnover:
+   - Show the breakdown of voluntary and involuntary turnover using a pie chart.
+
+### Root Causes of Slow Progress:
+
+- Limited Internal Mobility
+- Bias in Hiring and Promotion
+- Performance Management Issues
+- Lack of Training and Development
+- Inadequate Diversity and Inclusion Initiatives
+- Poor Employee Engagement
+- High Turnover and Loss of Talent
+- Organizational Structure and Bureaucracy
+
+### Conclusion:
+
+In this Diversity and Inclusion Analysis Project, we analyzed various key performance indicators related to employee hiring, promotion, performance, and turnover with a particular focus on diversity and inclusion metrics. The dataset allowed us to gain insights into the organization's HR practices and identify areas for improvement in promoting diversity and inclusion within the workforce. The visualizations and root cause analysis provide valuable insights to help drive data-driven decisions and initiatives aimed at fostering a diverse and inclusive work environment.
+
+*Note: The images used in this example are for illustrative purposes only and do not represent actual data or analysis.*
