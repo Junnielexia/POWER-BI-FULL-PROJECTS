@@ -386,43 +386,42 @@ The dataset used for this analysis contains employee information, including Empl
 
 ### Analysis Visualizations:
 
-#### Hiring Analysis:
+![Screenshot (232)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/ccb6aec3-ba3f-47a0-b4f8-3a88cb3af1df)
+
+#### Employee Distribution:
 
 1. Number of Hires by Gender:
-   - Visualize the number of male and female hires using a stacked bar chart.
+   The Total number of employees hired is 500, 295 of which are male and 205 female.
+2. Age Group: there are abot 223 employees aged 20- 29 and 4 employees aged 50-59
+3. Nationality: THereare more Employees from switzerland,Germany, France and italy more than any other country.
+4. Job Level: There 169 Junnior officer 91 of which are female and 78 male, and 19 Executives 16 of which are males and 3 females.
 
-2. Diversity Hiring Rate:
-   - Display the percentage of diverse hires with a card visualization.
+![Screenshot (233)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/58ff88c0-1013-4faa-944c-5657f88afed5)
+ 
+#### Hiring Analysis:
 
-3. % of Women Hired:
-   - Show the percentage of female hires among total hires using a donut chart.
+A total of 66 employee was hired in FY20 , 34 0f which are male and 32 female, 56 of them are in the age group 20 - 39. for 
+While 47 employee left, 26 0f which are male and 21 female 32 OF Which are aged 30-49.
 
-4. % of Men Hired:
-   - Show the percentage of male hires among total hires using a donut chart.
+![Screenshot (237)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/12156a68-69ce-485e-b8df-24c093a40529)
 
 #### Promotion Analysis:
 
 5. Employees Promoted in FY21:
-   - Display the count of employees promoted in FY21 using a card visualization.
+   - there are 36 employees promoted in FY20 8 of which are female and 28 of which are male. while there are 51 employees promoted in FY21 18 of which are female and 33 of which are male.
 
-6. Percentage of Women Promoted:
-   - Show the percentage of women among promoted employees using a donut chart.
+![Screenshot (238)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/7b185db9-ec8b-4dd1-8a85-b34efdc0e917)
+
 
 #### Performance Analysis:
 
-7. Performance Rating Distribution:
-   - Visualize the distribution of performance ratings with a histogram.
 
-8. Average Performance Rating by Gender:
-   - Compare the average performance rating of men and women using a clustered bar chart.
+6. Average Performance Rating by Gender:
+   The Maximum Performance rating is 4 of which the male had 2.41 and the female had 2.42, in FY19 the age 20-29 had the second highest average rating of 2.50 and the highest average rating in FY20 is age 40-49 at 2.17  
 
-#### Turnover Analysis:
+![Screenshot (239)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/4d667e25-196b-487e-9874-0d7630f05efc)
 
-9. Employee Turnover Rate:
-   - Display the overall employee turnover rate using a card visualization.
 
-10. Voluntary vs. Involuntary Turnover:
-   - Show the breakdown of voluntary and involuntary turnover using a pie chart.
 
 ### Root Causes of Slow Progress:
 
