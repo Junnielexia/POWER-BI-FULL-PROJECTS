@@ -438,4 +438,3 @@ While 47 employee left, 26 0f which are male and 21 female 32 OF Which are aged 
 
 In this Diversity and Inclusion Analysis Project, we analyzed various key performance indicators related to employee hiring, promotion, performance, and turnover with a particular focus on diversity and inclusion metrics. The dataset allowed us to gain insights into the organization's HR practices and identify areas for improvement in promoting diversity and inclusion within the workforce. The visualizations and root cause analysis provide valuable insights to help drive data-driven decisions and initiatives aimed at fostering a diverse and inclusive work environment.
 
-*Note: The images used in this example are for illustrative purposes only and do not represent actual data or analysis.*
