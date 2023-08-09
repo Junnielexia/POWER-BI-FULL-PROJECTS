@@ -390,34 +390,81 @@ The dataset used for this analysis contains employee information, including Empl
 
 #### Employee Distribution:
 
-1. Number of Hires by Gender:
-   The Total number of employees hired is 500, 295 of which are male and 205 female.
-2. Age Group: there are abot 223 employees aged 20- 29 and 4 employees aged 50-59
-3. Nationality: THereare more Employees from switzerland,Germany, France and italy more than any other country.
-4. Job Level: There 169 Junnior officer 91 of which are female and 78 male, and 19 Executives 16 of which are males and 3 females.
+### 1. Gender Distribution of Hires
+- Total employees hired: 500
+- Male hires: 295
+- Female hires: 205
+
+### 2. Age Group Breakdown
+- Employees aged 20-29: 223
+- Employees aged 50-59: 4
+
+### 3. Nationality Insights
+- Predominant nationalities: Switzerland, Germany, France, Italy
+
+### 4. Job Level Composition
+- Junior Officers (169):
+  - Female: 91
+  - Male: 78
+- Executives (19):
+  - Male: 16
+  - Female: 3
 
 ![Screenshot (233)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/58ff88c0-1013-4faa-944c-5657f88afed5)
  
 #### Hiring Analysis:
 
-A total of 66 employee was hired in FY20 , 34 0f which are male and 32 female, 56 of them are in the age group 20 - 39. for 
-While 47 employee left, 26 0f which are male and 21 female 32 OF Which are aged 30-49.
+**Total Hires in FY20:** 66 employees
+
+- Male hires: 34
+- Female hires: 32
+
+**Age Distribution of Hires:**
+
+- Age group 20-39: 56 employees
+
+**Employee Departures:**
+
+**Total Exits in FY20:** 47 employees
+
+- Male exits: 26
+- Female exits: 21
+
+**Age Distribution of Exits:**
+
+- Age group 30-49: 32 employees
 
 ![Screenshot (237)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/12156a68-69ce-485e-b8df-24c093a40529)
 
 #### Promotion Analysis:
 
-5. Employees Promoted in FY21:
-   - there are 36 employees promoted in FY20 8 of which are female and 28 of which are male. while there are 51 employees promoted in FY21 18 of which are female and 33 of which are male.
+**Employees Promoted in FY21:**
+
+- **FY20 Promotions:**
+  - Total promotions: 36 employees
+  - Female promotions: 8
+  - Male promotions: 28
+
+- **FY21 Promotions:**
+  - Total promotions: 51 employees
+  - Female promotions: 18
+  - Male promotions: 33
 
 ![Screenshot (238)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/7b185db9-ec8b-4dd1-8a85-b34efdc0e917)
 
-
 #### Performance Analysis:
 
+**6. Average Performance Rating by Gender:**
 
-6. Average Performance Rating by Gender:
-   The Maximum Performance rating is 4 of which the male had 2.41 and the female had 2.42, in FY19 the age 20-29 had the second highest average rating of 2.50 and the highest average rating in FY20 is age 40-49 at 2.17  
+- **Maximum Performance Rating (Score: 4)**
+  - Male average rating: 2.41
+  - Female average rating: 2.42
+  
+- **FY19 Average Performance Ratings (Age 20-29):**
+  - Average rating: 2.50
+  
+- **FY20 Highest Average Performance Rating (Age 40-49):**
+  - Average rating: 2.17
 
 ![Screenshot (239)](https://github.com/Junnielexia/POWER-BI-FULL-PROJECTS/assets/95970546/4d667e25-196b-487e-9874-0d7630f05efc)
 
@@ -425,16 +472,33 @@ While 47 employee left, 26 0f which are male and 21 female 32 OF Which are aged 
 
 ### Root Causes of Slow Progress:
 
-- Limited Internal Mobility
-- Bias in Hiring and Promotion
-- Performance Management Issues
-- Lack of Training and Development
-- Inadequate Diversity and Inclusion Initiatives
-- Poor Employee Engagement
-- High Turnover and Loss of Talent
-- Organizational Structure and Bureaucracy
+- #### Potential Root Causes of Slow Progress in Diversity and Inclusion:
+
+1. **Limited Internal Mobility:**
+   - The data indicates a lack of significant internal movement, particularly in promotions. Limited growth opportunities might hinder progress.
+
+2. **Bias in Hiring and Promotion:**
+   - Disparities in male and female hires and promotions could point to potential gender bias in these processes, affecting equitable progress.
+
+3. **Performance Management Issues:**
+   - Variations in performance ratings across demographics and age groups suggest potential problems in the performance management system, impacting fair evaluation and progress.
+
+4. **Lack of Training and Development:**
+   - Differences in performance ratings across demographics could indicate a lack of tailored training, hindering skill growth and career advancement.
+
+5. **Inadequate Diversity and Inclusion Initiatives:**
+   - Underrepresentation of specific nationalities and genders, along with potential promotion disparities, might arise from inadequate diversity and inclusion initiatives.
+
+6. **Poor Employee Engagement:**
+   - Low engagement levels could lead to reduced motivation, lower productivity, and hindered progress in terms of performance and career advancement.
+
+7. **High Turnover and Loss of Talent:**
+   - Employee departures, especially from specific demographics, could highlight retention strategy issues and potential loss of valuable talent.
+
+8. **Organizational Structure and Bureaucracy:**
+   - An overly complex or rigid organizational structure might impede quick progress and hinder employees' upward mobility.
 
 ### Conclusion:
 
-In this Diversity and Inclusion Analysis Project, we analyzed various key performance indicators related to employee hiring, promotion, performance, and turnover with a particular focus on diversity and inclusion metrics. The dataset allowed us to gain insights into the organization's HR practices and identify areas for improvement in promoting diversity and inclusion within the workforce. The visualizations and root cause analysis provide valuable insights to help drive data-driven decisions and initiatives aimed at fostering a diverse and inclusive work environment.
+In this Diversity and Inclusion Analysis Project, we meticulously examined a range of pivotal performance metrics encompassing employee recruitment, advancement, performance assessment, and attrition, all with a specific emphasis on diversity and inclusion benchmarks. By leveraging the dataset, we obtained intricate insights into the organization's HR strategies, pinpointing realms for enhancement in fostering diversity and inclusion across the workforce. The meticulously crafted visualizations coupled with the root cause analysis present invaluable findings, instrumental in steering data-backed determinations and endeavors aimed at cultivating a work milieu that is both diverse and inclusive.
 
